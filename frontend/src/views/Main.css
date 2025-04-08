@@ -1,0 +1,22 @@
+@media (min-width: 720px) and (max-width: 2560px) {
+.main {
+    width: 100%;
+     min-height: calc(100vh - 50px - 50px);
+     background-color: #fff;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     padding: 30px;
+     grid-gap: 30px; /* свойство grid-gap CSS задаёт отступы */
+}
+}
+h3{
+    padding: auto;
+    margin: auto;
+}
+@media (max-width: 720px) {
+    .calculators {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* колонки для узких экранов */
+        padding: 20px; /* уменьшенные отступы */
+        grid-gap: 20px; /* меньшее расстояние между элементами */
+    }
+}
