@@ -19,8 +19,11 @@
     }
     .calculators {
         width: 100%;
-         min-height: calc(100vh - 50px - 50px);
+         min-height: 20%;
          background-color: #fff;
-         grid-template-rows: repeat(3, 1fr);
+         display: flex; 
+        align-items: center;
+        justify-content: center;
+        align-content: space-around;
     }
     }
